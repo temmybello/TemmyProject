@@ -1,0 +1,6 @@
+﻿Cricket
+Rugby
+Football
+Rowing
+Swimming
+Athletics
