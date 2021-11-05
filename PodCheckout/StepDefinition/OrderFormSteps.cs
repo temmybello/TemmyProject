@@ -71,7 +71,7 @@ namespace PodCheckout.StepDefinition
         public void GivenIClickOnNextButton()
         {
             Thread.Sleep(5000);
-            orderformcheckoutpage.IClickNextButton();
+            orderformcheckoutpage.IClickNextOnButton();
             Thread.Sleep(5000);
         }
 
@@ -102,23 +102,24 @@ namespace PodCheckout.StepDefinition
             orderformcheckoutpage.IEnterEmailAddress(Email);
         }
 
-        [Given(@"I click dont Contact me by phone")]
-        public void GivenIClickDontContactMeByPhone()
+        [Given(@"I click dont Contact me by")]
+        public void GivenIClickDontContactMeBy()
         {
-            Thread.Sleep(3000);
-            orderformcheckoutpage.IClickByPhone();
+            orderformcheckoutpage.ClickByEmail();
         }
+
         [Given(@"Don't contact me by Email")]
         public void GivenDonTContactMeByEmail()
         {
-            orderformcheckoutpage.ClickByEmail2();
+            orderformcheckoutpage.ClickByEmail();
         }
 
-        [Given(@"User click I'd prefer not to recieve update")]
-        public void GivenUserClickIDPreferNotToRecieveUpdate()
+        [Given(@"User click consent marketing")]
+        public void GivenUserClickConsentMarketing()
         {
-            orderformcheckoutpage.IClickEmail3();
+            orderformcheckoutpage.IClickConsentMarketing();
         }
+
         [When(@"I click on submit button")]
         public void WhenIClickOnSubmitButton()
         {

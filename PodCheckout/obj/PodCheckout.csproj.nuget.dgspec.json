@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\temmy\\source\\repos\\PodCheckout\\PodCheckout\\PodCheckout.csproj": {}
+    "C:\\Users\\temmy\\Documents\\GitHub\\TemmyProject\\PodCheckout\\PodCheckout.csproj": {}
   },
   "projects": {
-    "C:\\Users\\temmy\\source\\repos\\PodCheckout\\PodCheckout\\PodCheckout.csproj": {
+    "C:\\Users\\temmy\\Documents\\GitHub\\TemmyProject\\PodCheckout\\PodCheckout.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\temmy\\source\\repos\\PodCheckout\\PodCheckout\\PodCheckout.csproj",
+        "projectUniqueName": "C:\\Users\\temmy\\Documents\\GitHub\\TemmyProject\\PodCheckout\\PodCheckout.csproj",
         "projectName": "PodCheckout",
-        "projectPath": "C:\\Users\\temmy\\source\\repos\\PodCheckout\\PodCheckout\\PodCheckout.csproj",
+        "projectPath": "C:\\Users\\temmy\\Documents\\GitHub\\TemmyProject\\PodCheckout\\PodCheckout.csproj",
         "packagesPath": "C:\\Users\\temmy\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\temmy\\source\\repos\\PodCheckout\\PodCheckout\\obj\\",
+        "outputPath": "C:\\Users\\temmy\\Documents\\GitHub\\TemmyProject\\PodCheckout\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\temmy\\AppData\\Roaming\\NuGet\\NuGet.Config",

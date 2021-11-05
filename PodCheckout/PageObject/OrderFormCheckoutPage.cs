@@ -23,14 +23,14 @@ namespace PodCheckout.PageObject
         IWebElement ChargesABmw330e => driver.FindElement(By.XPath("//*[@id='podModel']/div/div/div[1]/div/label"));
         IWebElement ExtendedWarranty => driver.FindElement(By.XPath("//*[@id='optionalExtras']/div/div/div/div[3]/div/label/h4"));
         IWebElement CableBag => driver.FindElement(By.XPath("//*[@id='optionalExtras']/div/div/div/div[4]"));
-        IWebElement Next => driver.FindElement(By.Id("next-button"));
-        IWebElement FirstName => driver.FindElement(By.CssSelector("input[id='firstName']"));
+        IWebElement Next => driver.FindElement(By.XPath("//*[@id='next-button']"));
+        IWebElement FirstName => driver.FindElement(By.XPath("//*[@id='firstName']"));
         IWebElement LastName => driver.FindElement(By.XPath("//input[@name='lastName']"));
         IWebElement PhoneNumber => driver.FindElement(By.CssSelector("#phoneNumber"));
         IWebElement emailAddress => driver.FindElement(By.CssSelector("#email"));
-        IWebElement ByPhone => driver.FindElement(By.CssSelector("#contactConsentPhone"));
-        IWebElement ByEmail2 => driver.FindElement(By.CssSelector("#contactConsentEmail"));
-        IWebElement Email3 => driver.FindElement(By.CssSelector("#marketingConsent"));
+        IWebElement ByPhone => driver.FindElement(By.XPath("//Input[@name='consent.phone']"));
+        IWebElement ByEmail => driver.FindElement(By.XPath("//input[@name='consent.email']"));
+        IWebElement Consentmarketing => driver.FindElement(By.XPath("//*[@name='consent.marketing']"));
         IWebElement Submit1 => driver.FindElement(By.CssSelector("#customerDetail > div > div.max-width-text.m-centre > div > div:nth-child(6) > div > button"));
 
         public void ISelectMake()
@@ -68,7 +68,7 @@ namespace PodCheckout.PageObject
             CableBag.Click();
         }
 
-        public void IClickNextButton()
+        public void IClickNextOnButton()
         {
             IJavaScriptExecutor js = (IJavaScriptExecutor)driver;
             js.ExecuteScript("window.scrollBy(0,350)", "");
@@ -78,7 +78,6 @@ namespace PodCheckout.PageObject
             //actions.Click();
             Thread.Sleep(5000);
             Next.Click();
-            Next.Click();
         }
         public void EnterFirstName(string Name)
         {
@@ -87,10 +86,12 @@ namespace PodCheckout.PageObject
             //Actions actions = new Actions(driver);
             //actions.MoveToElement(FirstName);
             //actions.Perform();
+            Thread.Sleep(5000);
             FirstName.SendKeys(Name);
         }
         public void EnterLastName(string Name)
         {
+            Thread.Sleep(5000);
             LastName.SendKeys(Name);
         }
 
@@ -108,18 +109,19 @@ namespace PodCheckout.PageObject
         }
         public void IClickByPhone()
         {
-            IJavaScriptExecutor js = (IJavaScriptExecutor)driver;
-            js.ExecuteScript("window.scrollBy(0,350)", "");
+            //IJavaScriptExecutor js = (IJavaScriptExecutor)driver;
+            //js.ExecuteScript("window.scrollBy(0,350)", "");
+            Thread.Sleep(3000);
             ByPhone.Click();
         }
 
-        public void ClickByEmail2()
+        public void ClickByEmail()
         {
-            ByEmail2.Click();
+            ByEmail.Click();
         }
-        public void IClickEmail3()
+        public void IClickConsentMarketing()
         {
-            Email3.Click();
+            Consentmarketing.Click();
         }
         public void IClickSubmit1()
         {

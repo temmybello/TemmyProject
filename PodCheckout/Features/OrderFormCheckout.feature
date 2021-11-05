@@ -17,8 +17,8 @@ Scenario: OrderFormCheckout
     And I enter LastName "BELLA"
     And I enter Phone Number "07944610699"
     And I Enter Email address "Temmywealth@yahoo.com" 
-	And I click dont Contact me by phone
-	And Don't contact me by Email
-	And User click I'd prefer not to recieve update
+	#And I click dont Contact me by 
+	#And Don't contact me by Email
+	#And User click consent marketing
 	When I click on submit button
 	#Then I should be able to submit my details for installation

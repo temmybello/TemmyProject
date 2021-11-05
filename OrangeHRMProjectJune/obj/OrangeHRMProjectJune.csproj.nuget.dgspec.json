@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\temmy\\source\\repos\\OrangeHRMProjectLive\\OrangeHRMProjectJune\\OrangeHRMProjectJune.csproj": {}
+    "C:\\Users\\temmy\\Documents\\GitHub\\TemmyProject\\OrangeHRMProjectJune\\OrangeHRMProjectJune.csproj": {}
   },
   "projects": {
-    "C:\\Users\\temmy\\source\\repos\\OrangeHRMProjectLive\\OrangeHRMProjectJune\\OrangeHRMProjectJune.csproj": {
+    "C:\\Users\\temmy\\Documents\\GitHub\\TemmyProject\\OrangeHRMProjectJune\\OrangeHRMProjectJune.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\temmy\\source\\repos\\OrangeHRMProjectLive\\OrangeHRMProjectJune\\OrangeHRMProjectJune.csproj",
+        "projectUniqueName": "C:\\Users\\temmy\\Documents\\GitHub\\TemmyProject\\OrangeHRMProjectJune\\OrangeHRMProjectJune.csproj",
         "projectName": "OrangeHRMProjectJune",
-        "projectPath": "C:\\Users\\temmy\\source\\repos\\OrangeHRMProjectLive\\OrangeHRMProjectJune\\OrangeHRMProjectJune.csproj",
+        "projectPath": "C:\\Users\\temmy\\Documents\\GitHub\\TemmyProject\\OrangeHRMProjectJune\\OrangeHRMProjectJune.csproj",
         "packagesPath": "C:\\Users\\temmy\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\temmy\\source\\repos\\OrangeHRMProjectLive\\OrangeHRMProjectJune\\obj\\",
+        "outputPath": "C:\\Users\\temmy\\Documents\\GitHub\\TemmyProject\\OrangeHRMProjectJune\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\temmy\\AppData\\Roaming\\NuGet\\NuGet.Config",
