@@ -1,10 +1,12 @@
 ﻿using OpenQA.Selenium;
 using OpenQA.Selenium.Support.UI;
 using OrangeHRM.Hooks;
+using OrangeHRM.Utilities;
 using System;
 using System.Collections.Generic;
 using System.Text;
 using System.Threading;
+
 
 namespace OrangeHRM.PageObject
 {
