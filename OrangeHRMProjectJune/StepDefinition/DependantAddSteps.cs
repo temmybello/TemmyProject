@@ -183,7 +183,7 @@ namespace OrangeHRMProjectJune.StepDefinition
         [Then(@"Confirm you have successfully added dependents")]
         public void ThenConfirmYouHaveSuccessfullyAddedDependents()
         {
-            ScenarioContext.Current.Pending();
+            Assert.That(dependantAddPage.IsAssignedDependentDisplayed);
         }
 
 

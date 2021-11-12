@@ -177,6 +177,9 @@ testRunner.And("I select day", ((string)(null)), ((TechTalk.SpecFlow.Table)(null
 #line 30
 testRunner.When("I Click on Save", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line hidden
+#line 31
+testRunner.Then("Confirm you have successfully added dependents", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line hidden
             }
             this.ScenarioCleanup();
         }

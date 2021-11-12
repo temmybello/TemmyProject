@@ -51,6 +51,7 @@ namespace OrangeHRMProjectJune.PageObject
         IWebElement Day => driver.FindElement(By.XPath("//*[@id='ui-datepicker-div']/table/tbody/tr[4]/td[1]/a"));
        
         IWebElement Save => driver.FindElement(By.XPath("//input[@name='btnSaveDependent']"));
+        IWebElement AssignedDependents => driver.FindElement(By.XPath("//*[@id='listing']/div[1]/h1"));
 
 
 
@@ -166,6 +167,11 @@ namespace OrangeHRMProjectJune.PageObject
         public void IClickSave()
         {
             Save.Click();
+        }
+        public bool IsAssignedDependentDisplayed()
+        {
+            Thread.Sleep(5000);
+            return AssignedDependents.Displayed;
         }
 
         public void NavigateToWebsite()
